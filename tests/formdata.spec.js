@@ -14,5 +14,5 @@ test('SauceDemo form-submission', async ({ page }) => {
   await page.locator('[data-test="postalCode"]').fill(formData.postalCode);
   await page.locator('[data-test="continue"]').click();
   await page.locator('[data-test="finish"]').click();
-  //await expect(page.locator('[data-test="complete-header"]')).toHaveText('Thank you for your order!');
+  
 });
